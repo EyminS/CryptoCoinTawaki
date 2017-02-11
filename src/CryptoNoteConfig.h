@@ -11,3 +11,5 @@ const std::initializer_list<const char*> SEED_NODES = {
 const uint64_t MINIMUM_FEE = 100000;
 const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 20000;
 const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x571c; // addresses start with "tc"
+const char GENESIS_COINBASE_TX_HEX[] = "";
+tawakicoind --print-genesis-tx
