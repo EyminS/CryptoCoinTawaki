@@ -13,3 +13,4 @@ const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 20000;
 const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x571c; // addresses start with "tc"
 const char GENESIS_COINBASE_TX_HEX[] = "";
 tawakicoind --print-genesis-tx
+const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001ffff...785a33d9ebdba68b0";
