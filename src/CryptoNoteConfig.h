@@ -1,7 +1,7 @@
 const char CRYPTONOTE_NAME[] = "Tawaki Coin";
 const uint64_t MONEY_SUPPLY = (uint64_t)(-1);
-const unsigned EMISSION_SPEED_FACTOR = 18;
-const uint64_t DIFFICULTY_TARGET = 120;
+const unsigned EMISSION_SPEED_FACTOR = 20;
+const uint64_t DIFFICULTY_TARGET = 150;
 const int P2P_DEFAULT_PORT = 64531;
 const int RPC_DEFAULT_PORT = 65531;
 const std::initializer_list<const char*> SEED_NODES = {
@@ -10,3 +10,4 @@ const std::initializer_list<const char*> SEED_NODES = {
 };
 const uint64_t MINIMUM_FEE = 100000;
 const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 20000;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x571c; // addresses start with "tc"
