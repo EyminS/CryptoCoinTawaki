@@ -9,3 +9,4 @@ const std::initializer_list<const char*> SEED_NODES = {
   "222.22.22.22:17236",
 };
 const uint64_t MINIMUM_FEE = 100000;
+const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE = 20000;
